@@ -1,0 +1,195 @@
+1
+00:00:00,150 --> 00:00:02,070
+Provenance Widgets is an open source
+
+2
+00:00:02,070 --> 00:00:04,710
+library of modular UI control elements
+
+3
+00:00:04,710 --> 00:00:07,590
+such as range sliders, select dropdowns,
+
+4
+00:00:07,590 --> 00:00:10,310
+and checkbox groups. This library tracks
+
+5
+00:00:10,310 --> 00:00:12,430
+the recency and frequency of a user's
+
+6
+00:00:12,430 --> 00:00:14,590
+provenance and presents them back to the
+
+7
+00:00:14,590 --> 00:00:16,710
+user via dynamically overlaid
+
+8
+00:00:16,710 --> 00:00:19,270
+visualizations. Let me show you how:
+
+9
+00:00:19,550 --> 00:00:22,310
+Consider this range slider. If I interact
+
+10
+00:00:22,310 --> 00:00:24,150
+with it a few times by changing the
+
+11
+00:00:24,150 --> 00:00:26,670
+ranges, our library will add visual scents
+
+12
+00:00:26,670 --> 00:00:28,870
+at the top, showing an aggregated summary
+
+13
+00:00:28,870 --> 00:00:30,030
+of what has happened so far.
+
+14
+00:00:31,437 --> 00:00:33,637
+By default, the color corresponds to
+
+15
+00:00:33,637 --> 00:00:35,757
+recency and the height corresponds to
+
+16
+00:00:35,757 --> 00:00:36,437
+frequency.
+
+17
+00:00:37,166 --> 00:00:39,206
+Clicking on that little footprints icon
+
+18
+00:00:39,206 --> 00:00:41,406
+reveals a detailed temporal evolution
+
+19
+00:00:41,526 --> 00:00:43,406
+showing which ranges have been selected
+
+20
+00:00:43,406 --> 00:00:46,406
+so far, and when. I can filter a subset
+
+21
+00:00:46,406 --> 00:00:48,206
+of these selections by brushing the Y-axis.
+
+22
+00:00:48,246 --> 00:00:50,726
+I can also revisit any
+
+23
+00:00:50,726 --> 00:00:52,446
+selection by simply clicking on the
+
+24
+00:00:52,446 --> 00:00:54,886
+points or the rectangles corresponding to
+
+25
+00:00:54,886 --> 00:00:56,766
+that selection. Let's take another
+
+26
+00:00:56,766 --> 00:00:59,606
+example. This is a single select dropdown
+
+27
+00:01:00,004 --> 00:01:02,004
+If during the course of analysis I end up
+
+28
+00:01:02,004 --> 00:01:03,684
+selecting different cities such as New
+
+29
+00:01:03,684 --> 00:01:06,324
+York, Rome and London, the library can
+
+30
+00:01:06,324 --> 00:01:07,804
+visually tell me each options
+
+31
+00:01:07,804 --> 00:01:09,684
+interaction, recency and frequency.
+
+32
+00:01:15,216 --> 00:01:17,056
+In the detailed view, it can tell me
+
+33
+00:01:17,056 --> 00:01:18,976
+exactly when I selected a particular
+
+34
+00:01:18,976 --> 00:01:21,576
+option. Here it looks like London was
+
+35
+00:01:21,576 --> 00:01:23,376
+consistently selected throughout the
+
+36
+00:01:23,376 --> 00:01:26,336
+analysis and Istanbul was not selected at
+
+37
+00:01:26,336 --> 00:01:28,856
+all. Just like before, I can filter my
+
+38
+00:01:28,856 --> 00:01:30,896
+interaction provenance using this range
+
+39
+00:01:30,896 --> 00:01:33,456
+slider and revisit any state by clicking
+
+40
+00:01:33,456 --> 00:01:35,416
+on the rectangle representing that state.
+
+41
+00:01:36,825 --> 00:01:39,185
+Provenance widget supports a variety of
+
+42
+00:01:39,185 --> 00:01:41,505
+UI controls like single sliders, multi
+
+43
+00:01:41,505 --> 00:01:44,025
+select drop downs, radio button groups,
+
+44
+00:01:44,185 --> 00:01:46,785
+checkbox groups and text inputs. The
+
+45
+00:01:46,785 --> 00:01:49,385
+library is open sourced and available at
+
+46
+00:01:49,385 --> 00:01:52,345
+github.com/ProvenanceWidgets.
+
+47
+00:01:52,545 --> 00:01:54,785
+We hope our library helps application
+
+48
+00:01:54,785 --> 00:01:57,185
+developers build custom provenance aware
+
+49
+00:01:57,185 --> 00:01:58,305
+systems with ease.

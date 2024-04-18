@@ -1,0 +1,44 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+web-provenance-slider {
+  margin-top: 0px !important;
+  height: initial !important;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#visualization {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+#controls {
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.controls-left,
+.controls-right {
+  flex: 1;
+  padding: 0 10px;
+}
+
+.split-line {
+  border-left: 1px solid #ccc;
+  height: 100%;
+  margin: 0 20px;
+}

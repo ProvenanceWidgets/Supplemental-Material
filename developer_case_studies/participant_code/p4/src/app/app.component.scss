@@ -1,0 +1,26 @@
+::ng-deep .ngx-datatable *{
+    font-size: 16px !important;
+}
+
+::ng-deep .ngx-datatable.bootstrap .datatable-body .datatable-body-row .datatable-body-cell{
+    padding: 0.25em !important;
+}
+
+::ng-deep .ngx-datatable.bootstrap .datatable-header .datatable-header-cell{
+    padding: 0.25em !important;
+}
+
+::ng-deep .ngx-datatable.bootstrap .datatable-body .datatable-body-row .datatable-body-cell{
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+::ng-deep #vg-tooltip-element {
+    font-size: 18px;
+}
+
+::ng-deep hr{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}

@@ -1,0 +1,51 @@
+.app-bar {
+  background-color: #eee;
+
+  .title {
+    font-size: 1.25rem;
+    font-weight: 900;
+  }
+}
+
+.main {
+  .controls {
+    .title {
+      font-size: 1.1rem;
+    }
+  }
+
+  .visualization {
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.tooltip {
+  position: absolute;
+  z-index: 1087;
+  display: none; /* hide by default */
+  opacity: 0; /* hide by default */
+  // max-width: 250px;
+  padding: 12px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background-color: white;
+  box-sizing: border-box;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+  img {
+    max-height: 200px;
+    object-fit: contain;
+  }
+
+  .title {
+    font-size: 1rem;
+    font-weight: 900;
+  }
+
+  .list {
+    font-size: 0.9rem;
+  }
+}

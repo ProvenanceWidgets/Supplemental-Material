@@ -1,0 +1,54 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Countries.",
+    "data": { "values": []},
+    "layer": [
+        {
+            "mark": {"type": "point", "tooltip": true},
+            "encoding": {
+                "x": {
+                    "field": "fertility",
+                    "type": "quantitative",
+                    "scale": {
+                        "zero": false
+                    }
+                },
+                "y": {
+                    "field": "life_expect",
+                    "type": "quantitative",
+                    "scale": {
+                        "zero": false
+                    }
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "align": "left",
+                "baseline": "middle",
+                "dx": 6
+            },
+            "encoding": {
+                "x": {
+                    "field": "fertility",
+                    "type": "quantitative",
+                    "scale": {
+                        "zero": false
+                    }
+                },
+                "y": {
+                    "field": "life_expect",
+                    "type": "quantitative",
+                    "scale": {
+                        "zero": false
+                    }
+                },
+                "text": {
+                    "field": "country",
+                    "type": "nominal"
+                }
+            }
+        }
+    ]
+}

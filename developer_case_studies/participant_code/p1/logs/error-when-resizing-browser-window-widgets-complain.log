@@ -1,0 +1,5354 @@
+polyfills.js:1 [webpack-dev-server] Server started: Hot Module Replacement disabled, Live Reloading enabled, Progress disabled, Overlay enabled.
+dropdown.component.html:1 The itemSize property is deprecated, use virtualScrollItemSize property instead.
+set itemSize @ primeng-dropdown.mjs:149
+setInputsForProperty @ core.mjs:11646
+elementPropertyInternal @ core.mjs:10782
+ɵɵproperty @ core.mjs:13521
+DropdownComponent_Template @ dropdown.component.html:1
+executeTemplate @ core.mjs:10441
+refreshView @ core.mjs:10326
+refreshComponent @ core.mjs:11385
+refreshChildComponents @ core.mjs:10116
+refreshView @ core.mjs:10376
+refreshComponent @ core.mjs:11385
+refreshChildComponents @ core.mjs:10116
+refreshView @ core.mjs:10376
+detectChangesInternal @ core.mjs:11529
+detectChanges @ core.mjs:12020
+tick @ core.mjs:25310
+_loadComponent @ core.mjs:25348
+bootstrap @ core.mjs:25285
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 68 more frames
+Show less
+dropdown.component.html:1 The autoZIndex property is deprecated since v14.2.0, use overlayOptions property instead.
+set autoZIndex @ primeng-dropdown.mjs:156
+setInputsForProperty @ core.mjs:11646
+elementPropertyInternal @ core.mjs:10782
+ɵɵproperty @ core.mjs:13521
+DropdownComponent_Template @ dropdown.component.html:1
+executeTemplate @ core.mjs:10441
+refreshView @ core.mjs:10326
+refreshComponent @ core.mjs:11385
+refreshChildComponents @ core.mjs:10116
+refreshView @ core.mjs:10376
+refreshComponent @ core.mjs:11385
+refreshChildComponents @ core.mjs:10116
+refreshView @ core.mjs:10376
+detectChangesInternal @ core.mjs:11529
+detectChanges @ core.mjs:12020
+tick @ core.mjs:25310
+_loadComponent @ core.mjs:25348
+bootstrap @ core.mjs:25285
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 68 more frames
+Show less
+dropdown.component.html:1 The baseZIndex property is deprecated since v14.2.0, use overlayOptions property instead.
+set baseZIndex @ primeng-dropdown.mjs:163
+setInputsForProperty @ core.mjs:11646
+elementPropertyInternal @ core.mjs:10782
+ɵɵproperty @ core.mjs:13521
+DropdownComponent_Template @ dropdown.component.html:1
+executeTemplate @ core.mjs:10441
+refreshView @ core.mjs:10326
+refreshComponent @ core.mjs:11385
+refreshChildComponents @ core.mjs:10116
+refreshView @ core.mjs:10376
+refreshComponent @ core.mjs:11385
+refreshChildComponents @ core.mjs:10116
+refreshView @ core.mjs:10376
+detectChangesInternal @ core.mjs:11529
+detectChanges @ core.mjs:12020
+tick @ core.mjs:25310
+_loadComponent @ core.mjs:25348
+bootstrap @ core.mjs:25285
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 68 more frames
+Show less
+dropdown.component.html:1 The showTransitionOptions property is deprecated since v14.2.0, use overlayOptions property instead.
+set showTransitionOptions @ primeng-dropdown.mjs:170
+setInputsForProperty @ core.mjs:11646
+elementPropertyInternal @ core.mjs:10782
+ɵɵproperty @ core.mjs:13521
+DropdownComponent_Template @ dropdown.component.html:1
+executeTemplate @ core.mjs:10441
+refreshView @ core.mjs:10326
+refreshComponent @ core.mjs:11385
+refreshChildComponents @ core.mjs:10116
+refreshView @ core.mjs:10376
+refreshComponent @ core.mjs:11385
+refreshChildComponents @ core.mjs:10116
+refreshView @ core.mjs:10376
+detectChangesInternal @ core.mjs:11529
+detectChanges @ core.mjs:12020
+tick @ core.mjs:25310
+_loadComponent @ core.mjs:25348
+bootstrap @ core.mjs:25285
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 68 more frames
+Show less
+dropdown.component.html:1 The hideTransitionOptions property is deprecated since v14.2.0, use overlayOptions property instead.
+set hideTransitionOptions @ primeng-dropdown.mjs:177
+setInputsForProperty @ core.mjs:11646
+elementPropertyInternal @ core.mjs:10782
+ɵɵproperty @ core.mjs:13521
+DropdownComponent_Template @ dropdown.component.html:1
+executeTemplate @ core.mjs:10441
+refreshView @ core.mjs:10326
+refreshComponent @ core.mjs:11385
+refreshChildComponents @ core.mjs:10116
+refreshView @ core.mjs:10376
+refreshComponent @ core.mjs:11385
+refreshChildComponents @ core.mjs:10116
+refreshView @ core.mjs:10376
+detectChangesInternal @ core.mjs:11529
+detectChanges @ core.mjs:12020
+tick @ core.mjs:25310
+_loadComponent @ core.mjs:25348
+bootstrap @ core.mjs:25285
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 68 more frames
+Show less
+dropdown.component.html:1 The itemSize property is deprecated, use virtualScrollItemSize property instead.
+set itemSize @ primeng-dropdown.mjs:149
+setInputsForProperty @ core.mjs:11646
+elementPropertyInternal @ core.mjs:10782
+ɵɵproperty @ core.mjs:13521
+DropdownComponent_Template @ dropdown.component.html:1
+executeTemplate @ core.mjs:10441
+refreshView @ core.mjs:10326
+refreshComponent @ core.mjs:11385
+refreshChildComponents @ core.mjs:10116
+refreshView @ core.mjs:10376
+refreshComponent @ core.mjs:11385
+refreshChildComponents @ core.mjs:10116
+refreshView @ core.mjs:10376
+detectChangesInternal @ core.mjs:11529
+detectChanges @ core.mjs:12020
+tick @ core.mjs:25310
+_loadComponent @ core.mjs:25348
+bootstrap @ core.mjs:25285
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 68 more frames
+Show less
+dropdown.component.html:1 The autoZIndex property is deprecated since v14.2.0, use overlayOptions property instead.
+set autoZIndex @ primeng-dropdown.mjs:156
+setInputsForProperty @ core.mjs:11646
+elementPropertyInternal @ core.mjs:10782
+ɵɵproperty @ core.mjs:13521
+DropdownComponent_Template @ dropdown.component.html:1
+executeTemplate @ core.mjs:10441
+refreshView @ core.mjs:10326
+refreshComponent @ core.mjs:11385
+refreshChildComponents @ core.mjs:10116
+refreshView @ core.mjs:10376
+refreshComponent @ core.mjs:11385
+refreshChildComponents @ core.mjs:10116
+refreshView @ core.mjs:10376
+detectChangesInternal @ core.mjs:11529
+detectChanges @ core.mjs:12020
+tick @ core.mjs:25310
+_loadComponent @ core.mjs:25348
+bootstrap @ core.mjs:25285
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 68 more frames
+Show less
+dropdown.component.html:1 The baseZIndex property is deprecated since v14.2.0, use overlayOptions property instead.
+set baseZIndex @ primeng-dropdown.mjs:163
+setInputsForProperty @ core.mjs:11646
+elementPropertyInternal @ core.mjs:10782
+ɵɵproperty @ core.mjs:13521
+DropdownComponent_Template @ dropdown.component.html:1
+executeTemplate @ core.mjs:10441
+refreshView @ core.mjs:10326
+refreshComponent @ core.mjs:11385
+refreshChildComponents @ core.mjs:10116
+refreshView @ core.mjs:10376
+refreshComponent @ core.mjs:11385
+refreshChildComponents @ core.mjs:10116
+refreshView @ core.mjs:10376
+detectChangesInternal @ core.mjs:11529
+detectChanges @ core.mjs:12020
+tick @ core.mjs:25310
+_loadComponent @ core.mjs:25348
+bootstrap @ core.mjs:25285
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 68 more frames
+Show less
+dropdown.component.html:1 The showTransitionOptions property is deprecated since v14.2.0, use overlayOptions property instead.
+set showTransitionOptions @ primeng-dropdown.mjs:170
+setInputsForProperty @ core.mjs:11646
+elementPropertyInternal @ core.mjs:10782
+ɵɵproperty @ core.mjs:13521
+DropdownComponent_Template @ dropdown.component.html:1
+executeTemplate @ core.mjs:10441
+refreshView @ core.mjs:10326
+refreshComponent @ core.mjs:11385
+refreshChildComponents @ core.mjs:10116
+refreshView @ core.mjs:10376
+refreshComponent @ core.mjs:11385
+refreshChildComponents @ core.mjs:10116
+refreshView @ core.mjs:10376
+detectChangesInternal @ core.mjs:11529
+detectChanges @ core.mjs:12020
+tick @ core.mjs:25310
+_loadComponent @ core.mjs:25348
+bootstrap @ core.mjs:25285
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 68 more frames
+Show less
+dropdown.component.html:1 The hideTransitionOptions property is deprecated since v14.2.0, use overlayOptions property instead.
+set hideTransitionOptions @ primeng-dropdown.mjs:177
+setInputsForProperty @ core.mjs:11646
+elementPropertyInternal @ core.mjs:10782
+ɵɵproperty @ core.mjs:13521
+DropdownComponent_Template @ dropdown.component.html:1
+executeTemplate @ core.mjs:10441
+refreshView @ core.mjs:10326
+refreshComponent @ core.mjs:11385
+refreshChildComponents @ core.mjs:10116
+refreshView @ core.mjs:10376
+refreshComponent @ core.mjs:11385
+refreshChildComponents @ core.mjs:10116
+refreshView @ core.mjs:10376
+detectChangesInternal @ core.mjs:11529
+detectChanges @ core.mjs:12020
+tick @ core.mjs:25310
+_loadComponent @ core.mjs:25348
+bootstrap @ core.mjs:25285
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 68 more frames
+Show less
+core.mjs:23480 Angular is running in development mode. Call enableProdMode() to enable production mode.
+app.component.ts:79 {Pokedex Number: {…}, Name: {…}, Classification: {…}, Primary Type: {…}, Secondary Type: {…}, …}
+app.component.ts:80 (801) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, …]
+app.component.html:35 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:35
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:64 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:64
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:35 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:35
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:64 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:64
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:35 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:35
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:64 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:64
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:35 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:35
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:64 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:64
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:35 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:35
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:64 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:64
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:35 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:35
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:64 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:64
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:35 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:35
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:64 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:64
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:35 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:35
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:64 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:64
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:35 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:35
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:64 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:64
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:35 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:35
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:64 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:64
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:35 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:35
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:64 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:64
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:35 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:35
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:64 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:64
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:35 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:35
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:64 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:64
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:35 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:35
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:64 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:64
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:35 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:35
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:64 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:64
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:35 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:35
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:64 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:64
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:35 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:35
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:64 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:64
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:35 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:35
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:64 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:64
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:35 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:35
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:64 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:64
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:35 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:35
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less
+app.component.html:64 ERROR TypeError: Cannot read properties of undefined (reading 'calculateDimension')
+    at SliderComponent.calculateViewDimensions (angular-slider-ngx-slider.mjs:1532:35)
+    at SliderComponent.calculateViewDimensionsAndDetectChanges (angular-slider-ngx-slider.mjs:1550:14)
+    at SliderComponent.onResize (angular-slider-ngx-slider.mjs:975:14)
+    at SliderComponent_resize_HostBindingHandler (angular-slider-ngx-slider.mjs:2753:98)
+    at executeListenerWithErrorHandling (core.mjs:13975:16)
+    at wrapListenerIn_markDirtyAndPreventDefault (core.mjs:14008:22)
+    at platform-browser.mjs:457:38
+    at _ZoneDelegate.invokeTask (zone.js:409:31)
+    at core.mjs:23896:55
+    at AsyncStackTaggingZoneSpec.onInvokeTask (core.mjs:23896:36)
+handleError @ core.mjs:8400
+handleError @ core.mjs:11624
+executeListenerWithErrorHandling @ core.mjs:13978
+wrapListenerIn_markDirtyAndPreventDefault @ core.mjs:14008
+(anonymous) @ platform-browser.mjs:457
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+invokeTask @ zone.js:490
+invokeTask @ zone.js:1664
+globalCallback @ zone.js:1707
+globalZoneAwareCallback @ zone.js:1728
+Zone - Window.addEventListener:resize (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleEventTask @ zone.js:247
+(anonymous) @ zone.js:1967
+addEventListener @ platform-browser.mjs:751
+addEventListener @ platform-browser.mjs:234
+listen @ platform-browser.mjs:653
+listen @ animations.mjs:299
+listenerInternal @ core.mjs:13937
+ɵɵlistener @ core.mjs:13818
+SliderComponent_HostBindings @ angular-slider-ngx-slider.mjs:551
+invokeHostBindingsInCreationMode @ core.mjs:11037
+invokeDirectivesHostBindings @ core.mjs:11020
+createDirectivesInstances @ core.mjs:10472
+ɵɵelementStart @ core.mjs:13601
+AppComponent_Template @ app.component.html:64
+executeTemplate @ core.mjs:10441
+renderView @ core.mjs:10263
+renderComponent @ core.mjs:11434
+renderChildComponents @ core.mjs:10122
+renderView @ core.mjs:10288
+create @ core.mjs:12178
+bootstrap @ core.mjs:25276
+(anonymous) @ core.mjs:24936
+_moduleDoBootstrap @ core.mjs:24936
+(anonymous) @ core.mjs:24906
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+(anonymous) @ core.mjs:23896
+onInvokeTask @ core.mjs:23896
+invokeTask @ zone.js:408
+onInvokeTask @ core.mjs:24197
+invokeTask @ zone.js:408
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Zone - Promise.then (async)
+onScheduleTask @ core.mjs:23890
+scheduleTask @ zone.js:389
+onScheduleTask @ zone.js:286
+scheduleTask @ zone.js:389
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+(anonymous) @ core.mjs:24902
+_callAndReportToErrorHandler @ core.mjs:25014
+(anonymous) @ core.mjs:24899
+invoke @ zone.js:375
+onInvoke @ core.mjs:24210
+invoke @ zone.js:374
+run @ zone.js:134
+run @ core.mjs:24064
+bootstrapModuleFactory @ core.mjs:24881
+(anonymous) @ core.mjs:24931
+invoke @ zone.js:375
+run @ zone.js:134
+(anonymous) @ zone.js:1278
+invokeTask @ zone.js:409
+runTask @ zone.js:178
+drainMicroTaskQueue @ zone.js:588
+Promise.then (async)
+nativeScheduleMicroTask @ zone.js:564
+scheduleMicroTask @ zone.js:575
+scheduleTask @ zone.js:399
+scheduleTask @ zone.js:221
+scheduleMicroTask @ zone.js:241
+scheduleResolveOrReject @ zone.js:1268
+then @ zone.js:1464
+bootstrapModule @ core.mjs:24931
+14431 @ main.ts:6
+__webpack_require__ @ bootstrap:19
+__webpack_exec__ @ provenance-widgets.ts:3
+(anonymous) @ provenance-widgets.ts:3
+__webpack_require__.O @ chunk loaded:23
+(anonymous) @ provenance-widgets.ts:3
+webpackJsonpCallback @ jsonp chunk loading:34
+(anonymous) @ main.js:2
+Show 92 more frames
+Show less

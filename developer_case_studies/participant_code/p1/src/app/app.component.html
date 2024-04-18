@@ -1,0 +1,108 @@
+<!-- CONTAINER -->
+<div class="flex flex-column h-screen">
+  <!-- APP BAR -->
+  <div class="app-bar shadow-2 flex flex-row flex-wrap align-items-center flex-initial col-12">
+    <div class="flex-initial">
+      <span class="title">The Pokemon App</span>
+    </div>
+    <div class="flex flex-wrap justify-content-end flex-auto">
+      <span>Participant 1</span>
+    </div>
+  </div>
+
+  <!-- MAIN -->
+  <div class="main flex flex-column flex-auto">
+    <!-- CONTROLS -->
+    <div class="controls flex flex-column flex-initial col-12">
+      <div class="flex flex-row overflow-x-auto overflow-y-hidden">
+        <!-- X-AXIS DROPDOWN -->
+        <div>
+          <label for="x-axis-dropdown">X-axis</label>
+          <provenance-dropdown
+            id="x-axis-dropdown"
+            [options]="xAxisDropdownOptions"
+            optionLabel="field"
+            dataKey="field"
+            placeholder="Select an attribute"
+            [filter]="true"
+            filterBy="field"
+            [(selected)]="xAxisDropdownSelected"
+            (selectedChange)="onAttrSelected($event, 'xaxis')"
+          >
+          </provenance-dropdown>
+        </div>
+
+        <!-- X-AXIS FILTER -->
+        <div class="col-3">
+          <provenance-slider
+            id="x-axis-filter"
+            [(value)]="xAxisFilterValue"
+            [(highValue)]="xAxisFilterHighValue"
+            [options]="xAxisFilterOptions"
+            [attr.data-label]="'x-axis interaction slider'"
+            [(provenance)]="xAxisFilterRangeSliderProvenance"
+            (provenanceChange)="handleXAxisFilterRangeSliderProvenanceChange($event)"
+          >
+          </provenance-slider>
+        </div>
+
+        <!-- Y-AXIS DROPDOWN -->
+        <div>
+          <label for="y-axis-dropdown">Y-axis</label>
+          <provenance-dropdown
+            id="y-axis-dropdown"
+            [options]="yAxisDropdownOptions"
+            optionLabel="field"
+            dataKey="field"
+            placeholder="Select an attribute"
+            [filter]="true"
+            filterBy="field"
+            [(selected)]="yAxisDropdownSelected"
+            (selectedChange)="onAttrSelected($event, 'yaxis')"
+          >
+          </provenance-dropdown>
+        </div>
+
+        <!-- Y-AXIS FILTER -->
+        <div class="col-3">
+          <provenance-slider
+            id="y-axis-filter"
+            [(value)]="yAxisFilterValue"
+            [(highValue)]="yAxisFilterHighValue"
+            [options]="yAxisFilterOptions"
+            [attr.data-label]="'y-axis interaction slider'"
+            [(provenance)]="yAxisFilterRangeSliderProvenance"
+            (provenanceChange)="handleYAxisFilterRangeSliderProvenanceChange($event)"
+          >
+          </provenance-slider>
+        </div>
+
+        <!-- LABEL -->
+        <div>
+          <label for="label-dropdown">Label</label>
+          <provenance-dropdown
+            id="label-dropdown"
+            [options]="labelDropdownOptions"
+            optionLabel="field"
+            dataKey="field"
+            placeholder="Select an attribute"
+            [filter]="true"
+            filterBy="field"
+            [showClear]="true"
+            [(selected)]="labelDropdownSelected"
+            (selectedChange)="onAttrSelected($event, 'label')"
+          >
+          </provenance-dropdown>
+        </div>
+      </div>
+    </div>
+
+    <!-- VISUALIZATION -->
+    <div class="visualization flex-auto col-12">
+      <svg #svg></svg>
+    </div>
+  </div>
+</div>
+
+<!-- TOOLTIP -->
+<div class="tooltip shadow-2"></div>

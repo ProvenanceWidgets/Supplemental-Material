@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokémon Visualization</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="src\style.css" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/provenance-widgets/web-components/styles.css"
+    />
+    <script
+      type="text/javascript"
+      src="/node_modules/provenance-widgets/web-components/index.js"
+    ></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="visualization"></div>
+      <div id="controls">
+        <div class="controls-left">
+          <div>
+            <label for="xAxis">X Axis:</label>
+          </div>
+          <br />
+          <div>
+            <label for="yAxis">Y Axis:</label>
+          </div>
+          <br />
+          <div>
+            <label for="type">Type:</label>
+          </div>
+          <br />
+          <div>
+            <h5>Filter out the primary types you don't want from the list</h5>
+            <label for="primary-type">Primary Type:</label>
+          </div>
+          <br />
+          <div>
+            <label for="circle-size">Adjust circle size:</label>
+          </div>
+          <br />
+          <div>
+            <label for="speed-range">Select speed range:</label>
+          </div>
+          <br />
+          <div>
+            <label for="pokemon-name">Enter a pokemon name:</label>
+          </div>
+          <br />
+        </div>
+        <div class="split-line"></div>
+        <div class="controls-right">
+          <div>
+            <h5>Filter out the secondary types you don't want from the list</h5>
+            <label for="secondary-type">Secondary Type:</label>
+            <!-- Insert Secondary Type checkbox here -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./src/script.js"></script>
+  </body>
+</html>

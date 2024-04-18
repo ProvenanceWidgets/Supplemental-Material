@@ -1,0 +1,114 @@
+{
+  "Pokedex Number": {
+    "field": "Pokedex Number",
+    "description": "The entry number of the Pokemon in the National Pokedex",
+    "type": "num",
+    "extent": [null, null],
+    "value": null
+  },
+  "Name": {
+    "field": "Name",
+    "description": "The English name of the Pokemon",
+    "type": "cat",
+    "extent": [null, null],
+    "value": null
+  },
+  "Classification": {
+    "field": "Classification",
+    "description": "The Classification of the Pokemon as described by the Sun and Moon Pokedex",
+    "type": "cat",
+    "extent": [],
+    "value": null
+  },
+  "Primary Type": {
+    "field": "Primary Type",
+    "description": "The Primary Type of the Pokemon",
+    "type": "cat",
+    "extent": [],
+    "value": null
+  },
+  "Secondary Type": {
+    "field": "Secondary Type",
+    "description": "The Secondary Type of the Pokemon (e.g., poison)",
+    "type": "cat",
+    "extent": [],
+    "value": null
+  },
+  "Generation": {
+    "field": "Generation",
+    "description": "The numbered generation in which the Pokemon was first introduced",
+    "type": "num",
+    "extent": [null, null],
+    "value": null
+  },
+  "Is Legendary": {
+    "field": "Is Legendary",
+    "description": "Denotes if the Pokemon is legendary. 0=not, 1=yes",
+    "type": "cat",
+    "extent": [],
+    "value": null
+  },
+  "Height_m": {
+    "field": "Height_m",
+    "description": "Height of the Pokemon in meters",
+    "type": "num",
+    "extent": [null, null],
+    "value": null
+  },
+  "Weight_kg": {
+    "field": "Weight_kg",
+    "description": "The Weight of the Pokemon in kilograms",
+    "type": "num",
+    "extent": [null, null],
+    "value": null
+  },
+  "HP": {
+    "field": "HP",
+    "description": "The Base HP of the Pokemon",
+    "type": "num",
+    "extent": [null, null],
+    "value": null
+  },
+  "Speed": {
+    "field": "Speed",
+    "description": "The Base Speed of the Pokemon",
+    "type": "num",
+    "extent": [null, null],
+    "value": null
+  },
+  "Attack": {
+    "field": "Attack",
+    "description": "The Base Attack of the Pokemon",
+    "type": "num",
+    "extent": [null, null],
+    "value": null
+  },
+  "Special Attack": {
+    "field": "Special Attack",
+    "description": "The Base Special Attack of the Pokemon",
+    "type": "num",
+    "extent": [null, null],
+    "value": null
+  },
+  "Defense": {
+    "field": "Defense",
+    "description": "The Base Defense of the Pokemon",
+    "type": "num",
+    "extent": [null, null],
+    "value": null
+  },
+  "Special Defense": {
+    "field": "Special Defense",
+    "description": "The Base Special Defense of the Pokemon",
+    "type": "num",
+    "extent": [null, null],
+    "value": null
+  },
+  "Happiness": {
+    "field": "Happiness",
+    "description": "Base Happiness of the Pokemon",
+    "type": "num",
+    "extent": [null, null],
+    "value": null
+  }
+}

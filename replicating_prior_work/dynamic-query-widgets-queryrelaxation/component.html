@@ -1,0 +1,75 @@
+<!-- The Interface -->
+<as-split direction="horizontal" class="h-fullpanel">
+  <as-split-area [size]="30">
+    <div class="p-sm">
+      <div class="control-panel-header">
+        <table class="w-100">
+          <tr>
+            <td>
+              <h6 class="panel-heading display-inline">Control Panel</h6>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="p-sm">
+        <form>
+          <div class="form-group">
+            <label>Year</label>
+            <provenance-slider [attr.data-label]="'Year'" id="{{'provenance-single-slider-year'}}" ngDefaultControl
+              [value]="appFilters.year.model" (selectedChange)="appFilters.year.model = $event.value; updateVis()"
+              [options]="appFilters.year.qFilterSliderConfig" mode="interaction" [visualize]="true" [freeze]="false" />
+          </div>
+          <hr>
+          <!-- <div class="form-group">
+            <label>Fertility</label>
+            <provenance-slider [attr.data-label]="'Fertility'" id="{{'provenance-slider-fertility'}}" ngDefaultControl
+              [value]="appFilters.fertility.model[0]" [highValue]="appFilters.fertility.model[1]"
+              (selectedChange)="appFilters.fertility.model = [$event.value, $event.highValue]; updateVis()"
+              [options]="appFilters.fertility.qFilterSliderConfig" mode="interaction" [visualize]="true"
+              [freeze]="false" />
+          </div>
+          <hr> -->
+          <div class="form-group">
+            <label>Life Expectancy</label>
+            <provenance-slider [attr.data-label]="'Life Expectancy'" id="{{'provenance-slider-life_expect'}}"
+              ngDefaultControl [value]="appFilters.life_expect.model[0]" [highValue]="appFilters.life_expect.model[1]"
+              (selectedChange)="appFilters.life_expect.model = [$event.value, $event.highValue]; updateVis()"
+              [options]="appFilters.life_expect.qFilterSliderConfig" mode="interaction" [visualize]="true"
+              [freeze]="false" />
+          </div>
+          <!-- <hr>
+          <div class="form-group">
+            <label>Country</label>
+            <provenance-multiselect dndDropzone id="{{'provenance-multiselect-countries'}}" ngDefaultControl
+              [attr.data-label]="'Countries'" [(selected)]="appFilters.countries.model"
+              (selectedChange)="updateVis()" 
+              [options]="appFilters.countries.options" [maxSelectedLabels]="1"
+              [selectedItemsLabel]="'{0} countries selected'" optionLabel="label" dataKey="value" mode="interaction"
+              [filter]="false" [filterBy]="'value'" [showClear]="false"
+              [overlayOptions]="{'appendTo': 'body'}" [visualize]="true"
+              [freeze]="false"></provenance-multiselect>
+          </div> -->
+        </form>
+      </div>
+    </div>
+  </as-split-area>
+  <as-split-area [size]="70">
+    <div class="p-sm">
+      <div class="visualization-header">
+        <table class="w-100">
+          <tr>
+            <td>
+              <h6 class="panel-heading display-inline">Visualization</h6>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="p-sm">
+        <div class="w-100 h-fullpanel">
+          <div id="visualization-canvas">
+          </div>
+        </div>
+      </div>
+    </div>
+  </as-split-area>
+</as-split>

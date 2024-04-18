@@ -1,0 +1,135 @@
+<div class="container-fluid" style="border: 1px solid lightgray; padding: 0;">
+  <nav class="navbar navbar-dark bg-dark" style="margin-bottom: 8px;">
+    <a class="navbar-brand" href="#">Pokemon Explorer</a>
+  </nav>
+  <div class="row" style="padding: 0 16px;">
+    <div class="col-md-3">
+      <div>
+        <label>Pokemon Name</label>
+        <provenance-inputtext ngDefaultControl name="filter-name" id="filter-name" mode="interaction"
+          [(value)]="filterConfigs['Name'].model" (valueChange)="updateVis()">
+        </provenance-inputtext>
+      </div>
+      <hr>
+      <div>
+        <label>Primary Type</label>
+        <provenance-multiselect id="{{'filter-primaryType'}}" ngDefaultControl [attr.data-label]="'Primary Type'"
+          [(selected)]="filterConfigs['Primary Type'].model" (selectedChange)="updateVis()"
+          [options]="filterConfigs['Primary Type'].options" [maxSelectedLabels]="1"
+          [selectedItemsLabel]="'{0} options selected'" optionLabel="label" dataKey="value" mode="interaction"
+          [filter]="false" [filterBy]="'value'" [showClear]="false" [overlayOptions]="{'appendTo': 'body'}"
+          [visualize]="true" [freeze]="false"></provenance-multiselect>
+      </div>
+      <hr>
+      <div>
+        <label>Is Legendary</label>
+        <provenance-radiobutton id="filter-legendary" ngDefaultControl [attr.data-label]="'Is Legendary'"
+          name="filter-legendary" [(selected)]="filterConfigs['Is Legendary'].model" (selectedChange)="updateVis()"
+          [data]="filterConfigs['Is Legendary'].options" mode="interaction" />
+      </div>
+      <hr>
+      <div>
+        <label>Generation</label>
+        <provenance-checkbox id="filter-generation" ngDefaultControl [attr.data-label]="'Generation'"
+          name="filter-generation" [(selected)]="filterConfigs['Generation'].model" (selectedChange)="updateVis()"
+          [data]="filterConfigs['Generation'].options" mode="interaction" />
+      </div>
+      <hr>
+      <div>
+        <label>HP</label>
+        <provenance-slider id="{{'filter-hp'}}" ngDefaultControl [attr.data-label]="'HP'"
+          [value]="filterConfigs['HP'].model[0]" [highValue]="filterConfigs['HP'].model[1]"
+          [(provenance)]="filterConfigs['HP'].provenance"
+          (selectedChange)="filterConfigs['HP'].model = [$event.value, $event.highValue]; updateVis()"
+          (provenanceChange)="updateVis()" [options]="filterConfigs['HP'].qFilterSliderConfig" mode="interaction"
+          [visualize]="true" [freeze]="false" />
+      </div>
+      <br/>
+    </div>
+    <div class="col-md-6">
+      <div style="width: 100%; height: calc(100vh - 200px);">
+        <div style="width: 100%; height: 100%;" id="visualization-canvas">
+        </div>
+      </div>
+      <hr>
+      <div class="container-fluid" style="background: #f5f5f5;">
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-5">
+            <!-- style="transform: rotate(-90deg);" -->
+            <div>
+              <label>{{yEncoding['value']}}</label>
+              <provenance-slider [attr.data-label]="yEncoding['value']" id="{{'filter-yEncoding'}}" ngDefaultControl
+                [value]="filterConfigs[yEncoding['value']].model[0]" [highValue]="filterConfigs[yEncoding['value']].model[1]"
+                [(provenance)]="filterConfigs[yEncoding['value']].provenance"
+                (selectedChange)="filterConfigs[yEncoding['value']].model = [$event.value, $event.highValue]; updateVis()"
+                (provenanceChange)="updateVis()" [options]="filterConfigs[yEncoding['value']].qFilterSliderConfig"
+                mode="interaction" [visualize]="true" [freeze]="false" />
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div>
+              <label>{{xEncoding['value']}}</label>
+              <provenance-slider [attr.data-label]="xEncoding['value']" id="{{'filter-xEncoding'}}" ngDefaultControl
+                [value]="filterConfigs[xEncoding['value']].model[0]" [highValue]="filterConfigs[xEncoding['value']].model[1]"
+                [(provenance)]="filterConfigs[xEncoding['value']].provenance"
+                (selectedChange)="filterConfigs[xEncoding['value']].model = [$event.value, $event.highValue]; updateVis()"
+                (provenanceChange)="updateVis()" [options]="filterConfigs[xEncoding['value']].qFilterSliderConfig"
+                mode="interaction" [visualize]="true" [freeze]="false" />
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+        <br/>
+      </div>
+      <br/>
+    </div>
+    <div class="col-md-3">
+      <div>
+        <label for="dropdown-x">X</label>
+        <provenance-dropdown ngDefaultControl name="dropdown-x" id="dropdown-x" [options]="numericalColumns"
+          optionLabel="label" dataKey="value" [(selected)]="xEncoding" (selectedChange)="updateVis()" mode="interaction"
+          [showClear]="false" [filter]="false" placeholder="Select X" />
+      </div>
+      <hr />
+      <div>
+        <label for="dropdown-y">Y</label>
+        <provenance-dropdown ngDefaultControl name="dropdown-y" id="dropdown-y" [options]="numericalColumns"
+          optionLabel="label" dataKey="value" [(selected)]="yEncoding" (selectedChange)="updateVis()" mode="interaction"
+          [showClear]="false" [filter]="false" placeholder="Select Y" />
+      </div>
+      <hr />
+      <div>
+        <label for="dropdown-color">Color</label>
+        <provenance-dropdown ngDefaultControl name="dropdown-color" id="dropdown-color" [options]="categoricalColumns"
+          optionLabel="label" dataKey="value" [(selected)]="colorEncoding" (selectedChange)="updateVis()"
+          mode="interaction" [showClear]="false" [filter]="false" placeholder="Select Color" />
+      </div>
+      <hr />
+      <div>
+        <label for="slider-pointSize">Point Size</label>
+        <provenance-slider [attr.data-label]="'Size'" id="{{'slider-pointSize'}}" ngDefaultControl [value]="pointSize"
+          (selectedChange)="pointSize = $event.value; updateVis()"
+          [options]="{ 'floor': 0, 'ceil': 1000, 'showTicks': true, 'step': 50}" mode="interaction" [visualize]="true"
+          [freeze]="false" />
+      </div>
+      <hr />
+      <div>
+        <label for="slider-pointOpacity">Point Opacity</label>
+        <provenance-slider [attr.data-label]="'Opacity'" id="{{'slider-pointOpacity'}}" ngDefaultControl
+          [value]="pointOpacity" (selectedChange)="pointOpacity = $event.value; updateVis()"
+          [options]="{ 'floor': 0, 'ceil': 1, 'showTicks': true, 'step': 0.05}" mode="interaction" [visualize]="true"
+          [freeze]="false" />
+      </div>
+      <hr />
+      <div>
+        <label for="slider-chartFontSizeMultiplier">Font Size</label>
+        <provenance-slider [attr.data-label]="'Font Size'" id="{{'slider-chartFontSizeMultiplier'}}" ngDefaultControl
+          [value]="chartFontSizeMultiplier" (selectedChange)="chartFontSizeMultiplier = $event.value; updateVis()"
+          [options]="{ 'floor': 0, 'ceil': 2, 'showTicks': true, 'step': 0.1}" mode="interaction" [visualize]="true"
+          [freeze]="false" />
+      </div>
+      <br/>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+web-provenance-slider {
+  margin-top: 0px !important;
+  height: initial !important;
+}
+
+#mainContainer {
+	display:flex;
+}
+
+#filters {
+	margin-left: 25px;
+}
+
+.p-multiselect-label {
+	width:200px;
+}

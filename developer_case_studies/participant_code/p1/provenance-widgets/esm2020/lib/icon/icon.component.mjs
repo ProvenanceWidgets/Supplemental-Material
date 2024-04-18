@@ -1,0 +1,39 @@
+import { Component, Input } from '@angular/core';
+import { AGGREGATE_SVG_BASE64, DISABLED_SVG_BASE64, TEMPORAL_SVG_BASE64 } from '../constants';
+import * as i0 from "@angular/core";
+import * as i1 from "primeng/tooltip";
+export class IconComponent {
+    constructor() {
+        this.AGGREGATE_B64 = AGGREGATE_SVG_BASE64;
+        this.TEMPORAL_B64 = TEMPORAL_SVG_BASE64;
+        this.DISABLED_B64 = DISABLED_SVG_BASE64;
+        this.tooltipText = '';
+    }
+    ngOnChanges(changes) {
+        if (changes["icon"].currentValue) {
+            const icon = changes["icon"].currentValue;
+            this.tooltipText = '<small>';
+            if (icon === 'aggregate') {
+                this.tooltipText += `<strong>Aggregate mode</strong><br/>Showing overall frequency (larger size = more) and recency (darker color = more) of past interactions.<br />Click to toggle.`;
+            }
+            else if (icon === 'temporal') {
+                this.tooltipText += `<strong>Temporal mode</strong><br/>Showing individual past interactions over the selected time period.<br />Click to toggle.`;
+            }
+            else if (icon === 'disabled') {
+                this.tooltipText += `<strong>No provenance yet.</strong><br/>Interact with the widget to generate/see provenance.`;
+            }
+            this.tooltipText += '</small>';
+        }
+    }
+}
+IconComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "15.2.10", ngImport: i0, type: IconComponent, deps: [], target: i0.ɵɵFactoryTarget.Component });
+IconComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "15.2.10", type: IconComponent, selector: "provenance-icon", inputs: { icon: "icon", size: "size" }, usesOnChanges: true, ngImport: i0, template: "<img\n    [width]=\"size || 32\"\n    [height]=\"size || 32\"\n    [src]=\"icon === 'aggregate' ? AGGREGATE_B64 : icon === 'temporal' ? TEMPORAL_B64 : DISABLED_B64\"\n    style=\"vertical-align: initial;\"\n    [pTooltip]=\"tooltipText\"\n    [tooltipOptions]=\"{ \n        escape: false,\n        hideOnEscape: true,\n        showDelay: 500,\n        tooltipStyleClass: 'provenance-icon-tooltip'\n    }\"\n/>", styles: ["::ng-deep{.provenance-icon-tooltip {width: max-content !important; max-width: 335px !important;}}\n"], dependencies: [{ kind: "directive", type: i1.Tooltip, selector: "[pTooltip]", inputs: ["tooltipPosition", "tooltipEvent", "appendTo", "positionStyle", "tooltipStyleClass", "tooltipZIndex", "escape", "showDelay", "hideDelay", "life", "positionTop", "positionLeft", "autoHide", "fitContent", "hideOnEscape", "pTooltip", "tooltipDisabled", "tooltipOptions"] }] });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.10", ngImport: i0, type: IconComponent, decorators: [{
+            type: Component,
+            args: [{ selector: 'provenance-icon', template: "<img\n    [width]=\"size || 32\"\n    [height]=\"size || 32\"\n    [src]=\"icon === 'aggregate' ? AGGREGATE_B64 : icon === 'temporal' ? TEMPORAL_B64 : DISABLED_B64\"\n    style=\"vertical-align: initial;\"\n    [pTooltip]=\"tooltipText\"\n    [tooltipOptions]=\"{ \n        escape: false,\n        hideOnEscape: true,\n        showDelay: 500,\n        tooltipStyleClass: 'provenance-icon-tooltip'\n    }\"\n/>", styles: ["::ng-deep{.provenance-icon-tooltip {width: max-content !important; max-width: 335px !important;}}\n"] }]
+        }], propDecorators: { icon: [{
+                type: Input
+            }], size: [{
+                type: Input
+            }] } });
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaWNvbi5jb21wb25lbnQuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi9wcm9qZWN0cy9wcm92ZW5hbmNlLXdpZGdldHMvc3JjL2xpYi9pY29uL2ljb24uY29tcG9uZW50LnRzIiwiLi4vLi4vLi4vLi4vLi4vcHJvamVjdHMvcHJvdmVuYW5jZS13aWRnZXRzL3NyYy9saWIvaWNvbi9pY29uLmNvbXBvbmVudC5odG1sIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE9BQU8sRUFBRSxTQUFTLEVBQUUsS0FBSyxFQUE0QixNQUFNLGVBQWUsQ0FBQztBQUMzRSxPQUFPLEVBQUUsb0JBQW9CLEVBQUUsbUJBQW1CLEVBQUUsbUJBQW1CLEVBQUUsTUFBTSxjQUFjLENBQUM7OztBQWM5RixNQUFNLE9BQU8sYUFBYTtJQVoxQjtRQWFFLGtCQUFhLEdBQUcsb0JBQW9CLENBQUE7UUFDcEMsaUJBQVksR0FBRyxtQkFBbUIsQ0FBQTtRQUNsQyxpQkFBWSxHQUFHLG1CQUFtQixDQUFBO1FBR2xDLGdCQUFXLEdBQUcsRUFBRSxDQUFBO0tBZ0JqQjtJQWRDLFdBQVcsQ0FBQyxPQUFzQjtRQUNoQyxJQUFJLE9BQU8sQ0FBQyxNQUFNLENBQUMsQ0FBQyxZQUFZLEVBQUU7WUFDaEMsTUFBTSxJQUFJLEdBQUcsT0FBTyxDQUFDLE1BQU0sQ0FBQyxDQUFDLFlBQVksQ0FBQTtZQUN6QyxJQUFJLENBQUMsV0FBVyxHQUFHLFNBQVMsQ0FBQTtZQUM1QixJQUFJLElBQUksS0FBSyxXQUFXLEVBQUU7Z0JBQ3hCLElBQUksQ0FBQyxXQUFXLElBQUksa0tBQWtLLENBQUE7YUFDdkw7aUJBQU0sSUFBSSxJQUFJLEtBQUssVUFBVSxFQUFFO2dCQUM5QixJQUFJLENBQUMsV0FBVyxJQUFJLDhIQUE4SCxDQUFBO2FBQ25KO2lCQUFNLElBQUksSUFBSSxLQUFLLFVBQVUsRUFBRTtnQkFDOUIsSUFBSSxDQUFDLFdBQVcsSUFBSSw4RkFBOEYsQ0FBQTthQUNuSDtZQUNELElBQUksQ0FBQyxXQUFXLElBQUksVUFBVSxDQUFBO1NBQy9CO0lBQ0gsQ0FBQzs7MkdBckJVLGFBQWE7K0ZBQWIsYUFBYSxvSENmMUIsMlpBWUU7NEZER1csYUFBYTtrQkFaekIsU0FBUzsrQkFDRSxpQkFBaUI7OEJBZWxCLElBQUk7c0JBQVosS0FBSztnQkFDRyxJQUFJO3NCQUFaLEtBQUsiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBDb21wb25lbnQsIElucHV0LCBPbkNoYW5nZXMsIFNpbXBsZUNoYW5nZXMgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcbmltcG9ydCB7IEFHR1JFR0FURV9TVkdfQkFTRTY0LCBESVNBQkxFRF9TVkdfQkFTRTY0LCBURU1QT1JBTF9TVkdfQkFTRTY0IH0gZnJvbSAnLi4vY29uc3RhbnRzJztcblxuQENvbXBvbmVudCh7XG4gIHNlbGVjdG9yOiAncHJvdmVuYW5jZS1pY29uJyxcbiAgdGVtcGxhdGVVcmw6ICcuL2ljb24uY29tcG9uZW50Lmh0bWwnLFxuICBzdHlsZXM6IFtgXG4gICAgOjpuZy1kZWVwIHtcbiAgICAgIC5wcm92ZW5hbmNlLWljb24tdG9vbHRpcCB7XG4gICAgICAgIHdpZHRoOiBtYXgtY29udGVudCAhaW1wb3J0YW50O1xuICAgICAgICBtYXgtd2lkdGg6IDMzNXB4ICFpbXBvcnRhbnQ7XG4gICAgICB9XG4gICAgfVxuICBgXVxufSlcbmV4cG9ydCBjbGFzcyBJY29uQ29tcG9uZW50IGltcGxlbWVudHMgT25DaGFuZ2VzIHtcbiAgQUdHUkVHQVRFX0I2NCA9IEFHR1JFR0FURV9TVkdfQkFTRTY0XG4gIFRFTVBPUkFMX0I2NCA9IFRFTVBPUkFMX1NWR19CQVNFNjRcbiAgRElTQUJMRURfQjY0ID0gRElTQUJMRURfU1ZHX0JBU0U2NFxuICBASW5wdXQoKSBpY29uITogJ2FnZ3JlZ2F0ZScgfCAndGVtcG9yYWwnIHwgJ2Rpc2FibGVkJztcbiAgQElucHV0KCkgc2l6ZT86IG51bWJlcjtcbiAgdG9vbHRpcFRleHQgPSAnJ1xuXG4gIG5nT25DaGFuZ2VzKGNoYW5nZXM6IFNpbXBsZUNoYW5nZXMpIHsgICAgXG4gICAgaWYgKGNoYW5nZXNbXCJpY29uXCJdLmN1cnJlbnRWYWx1ZSkge1xuICAgICAgY29uc3QgaWNvbiA9IGNoYW5nZXNbXCJpY29uXCJdLmN1cnJlbnRWYWx1ZVxuICAgICAgdGhpcy50b29sdGlwVGV4dCA9ICc8c21hbGw+J1xuICAgICAgaWYgKGljb24gPT09ICdhZ2dyZWdhdGUnKSB7XG4gICAgICAgIHRoaXMudG9vbHRpcFRleHQgKz0gYDxzdHJvbmc+QWdncmVnYXRlIG1vZGU8L3N0cm9uZz48YnIvPlNob3dpbmcgb3ZlcmFsbCBmcmVxdWVuY3kgKGxhcmdlciBzaXplID0gbW9yZSkgYW5kIHJlY2VuY3kgKGRhcmtlciBjb2xvciA9IG1vcmUpIG9mIHBhc3QgaW50ZXJhY3Rpb25zLjxiciAvPkNsaWNrIHRvIHRvZ2dsZS5gXG4gICAgICB9IGVsc2UgaWYgKGljb24gPT09ICd0ZW1wb3JhbCcpIHtcbiAgICAgICAgdGhpcy50b29sdGlwVGV4dCArPSBgPHN0cm9uZz5UZW1wb3JhbCBtb2RlPC9zdHJvbmc+PGJyLz5TaG93aW5nIGluZGl2aWR1YWwgcGFzdCBpbnRlcmFjdGlvbnMgb3ZlciB0aGUgc2VsZWN0ZWQgdGltZSBwZXJpb2QuPGJyIC8+Q2xpY2sgdG8gdG9nZ2xlLmBcbiAgICAgIH0gZWxzZSBpZiAoaWNvbiA9PT0gJ2Rpc2FibGVkJykge1xuICAgICAgICB0aGlzLnRvb2x0aXBUZXh0ICs9IGA8c3Ryb25nPk5vIHByb3ZlbmFuY2UgeWV0Ljwvc3Ryb25nPjxici8+SW50ZXJhY3Qgd2l0aCB0aGUgd2lkZ2V0IHRvIGdlbmVyYXRlL3NlZSBwcm92ZW5hbmNlLmBcbiAgICAgIH1cbiAgICAgIHRoaXMudG9vbHRpcFRleHQgKz0gJzwvc21hbGw+J1xuICAgIH1cbiAgfVxufVxuIiwiPGltZ1xuICAgIFt3aWR0aF09XCJzaXplIHx8IDMyXCJcbiAgICBbaGVpZ2h0XT1cInNpemUgfHwgMzJcIlxuICAgIFtzcmNdPVwiaWNvbiA9PT0gJ2FnZ3JlZ2F0ZScgPyBBR0dSRUdBVEVfQjY0IDogaWNvbiA9PT0gJ3RlbXBvcmFsJyA/IFRFTVBPUkFMX0I2NCA6IERJU0FCTEVEX0I2NFwiXG4gICAgc3R5bGU9XCJ2ZXJ0aWNhbC1hbGlnbjogaW5pdGlhbDtcIlxuICAgIFtwVG9vbHRpcF09XCJ0b29sdGlwVGV4dFwiXG4gICAgW3Rvb2x0aXBPcHRpb25zXT1cInsgXG4gICAgICAgIGVzY2FwZTogZmFsc2UsXG4gICAgICAgIGhpZGVPbkVzY2FwZTogdHJ1ZSxcbiAgICAgICAgc2hvd0RlbGF5OiA1MDAsXG4gICAgICAgIHRvb2x0aXBTdHlsZUNsYXNzOiAncHJvdmVuYW5jZS1pY29uLXRvb2x0aXAnXG4gICAgfVwiXG4vPiJdfQ==

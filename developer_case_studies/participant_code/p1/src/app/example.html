@@ -1,0 +1,84 @@
+<div>
+  <label for="s-interaction">Slider</label>
+  <provenance-slider
+    id="s-interaction"
+    [value]="value"
+    [options]="options"
+    [attr.data-label]="'Interaction slider'"
+    [(provenance)]="sliderProvenance"
+  >
+  </provenance-slider>
+
+  <hr />
+
+  <label for="rs-interaction">Range Slider</label>
+  <provenance-slider
+    id="rs-interaction"
+    [value]="value"
+    [highValue]="highValue"
+    [options]="options"
+    [attr.data-label]="'Interaction slider'"
+    [provenance]="rangeSliderProvenance"
+    (provenanceChange)="handleRangeSliderProvenanceChange($event)"
+  >
+  </provenance-slider>
+
+  <hr />
+
+  <label for="d-interaction">Dropdown</label>
+  <provenance-dropdown
+    id="d-interaction"
+    [options]="cities"
+    optionLabel="name"
+    dataKey="code"
+    placeholder="Select a City"
+    [(selected)]="dropdown_selected"
+  >
+  </provenance-dropdown>
+
+  <hr />
+
+  <label for="m-interaction">Multiselect</label>
+  <provenance-multiselect
+    id="m-interaction"
+    [options]="cities"
+    optionLabel="name"
+    dataKey="code"
+    placeholder="Select a City"
+    [selected]="multiselect_selected"
+    (selectedChange)="handleMultiselectChange($event)"
+  >
+  </provenance-multiselect>
+
+  <hr />
+
+  <label for="i-interaction">Inputtext</label>
+  <provenance-inputtext id="i-interaction" [value]="title" [attr.data-label]="'Interaction inputtext'">
+  </provenance-inputtext>
+
+  <hr />
+
+  <label for="c-interaction">Checkbox</label>
+  <provenance-checkbox
+    id="c-interaction"
+    [data]="cities"
+    label="name"
+    value="code"
+    name="undefined"
+    [(selected)]="checkbox_selected"
+  >
+  </provenance-checkbox>
+
+  <hr />
+
+  <label for="r-interaction">Radiobutton</label>
+  <provenance-radiobutton
+    id="r-interaction"
+    [data]="cities"
+    label="name"
+    value="code"
+    name="r-interaction"
+    [(selected)]="radio_selected"
+  >
+  </provenance-radiobutton>
+</div>

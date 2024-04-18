@@ -1,0 +1,94 @@
+<!-- The Interface -->
+<as-split direction="horizontal" class="h-fullpanel">
+  <as-split-area [size]="30">
+    <div class="p-sm">
+      <div class="control-panel-header">
+        <table class="w-100">
+          <tr>
+            <td>
+              <h6 class="panel-heading display-inline">Control Panel</h6>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="p-sm">
+        <form>
+          <div class="form-group">
+            <label>Rooms</label>
+            <provenance-slider [attr.data-label]="'Room'" id="{{'provenance-single-slider-rooms'}}" ngDefaultControl
+              [value]="appFilters['Rooms'].model" (selectedChange)="appFilters['Rooms'].model = $event.value; updateVis()"
+              [options]="appFilters['Rooms'].qFilterSliderConfig" mode="interaction" [visualize]="false" [freeze]="true" />
+          </div>
+          <!-- <hr> -->
+          <div class="form-group">
+            <label>Price</label>
+            <provenance-slider [attr.data-label]="'Room'" id="{{'provenance-single-slider-price'}}" ngDefaultControl
+              [value]="appFilters['Price'].model[0]" [highValue]="appFilters['Price'].model[1]" (selectedChange)="appFilters['Price'].model[0] = $event.value; appFilters['Price'].model[1] = $event.highValue; updateVis()"
+              [options]="appFilters['Price'].qFilterSliderConfig" mode="interaction" [visualize]="false" [freeze]="true" />
+          </div>
+          <!-- <hr> -->
+          <div class="form-group">
+            <label>Lot Config</label>
+            <provenance-radiobutton ngDefaultControl id="{{'provenance-radiobutton-lotconfig'}}"
+                [data]="appFilters['Lot Config'].options"
+                [(selected)]="appFilters['Lot Config'].model"
+                (selectedChange)="updateVis()"
+                mode="interaction" 
+                [visualize]="false"
+                [freeze]="true"
+                />
+          </div>
+          <!-- <hr> -->
+          <div class="form-group">
+            <label>Heating Type</label>
+            <provenance-multiselect dndDropzone id="{{'provenance-multiselect-heatingtype'}}" ngDefaultControl
+              [attr.data-label]="'Heating Type'" [(selected)]="appFilters['Heating Type'].model"
+              (selectedChange)="updateVis()" 
+              [options]="appFilters['Heating Type'].options" [maxSelectedLabels]="1"
+              [selectedItemsLabel]="'{0} Selected'" optionLabel="label" dataKey="value" mode="interaction"
+              [filter]="false" [filterBy]="'value'" [showClear]="false"
+              [overlayOptions]="{'appendTo': 'body'}" [visualize]="false"
+              [freeze]="true"></provenance-multiselect>
+          </div>
+          <!-- <hr> -->
+          <!-- <div class="form-group">
+            <label>Home Type</label>
+            <provenance-checkbox ngDefaultControl id="{{'provenance-checkbox-hometype'}}"
+                [data]="appFilters['Home Type'].options"
+                [(selected)]="appFilters['Home Type'].model"
+                (selectedChange)="updateVis()"
+                mode="interaction" 
+                [visualize]="false"
+                [freeze]="true"
+                />
+          </div> -->
+          <!-- <div class="form-group">
+            <label>Year</label>
+            <provenance-slider [attr.data-label]="'Year'" id="{{'provenance-single-slider-year'}}" ngDefaultControl
+              [value]="appFilters['Year'].model" (selectedChange)="appFilters['Year'].model = $event.value; updateVis()"
+              [options]="appFilters['Year'].qFilterSliderConfig" mode="interaction" [visualize]="false" [freeze]="true" />
+          </div> -->
+        </form>
+      </div>
+    </div>
+  </as-split-area>
+  <as-split-area [size]="70">
+    <div class="p-sm">
+      <div class="visualization-header">
+        <table class="w-100">
+          <tr>
+            <td>
+              <h6 class="panel-heading display-inline">Visualization</h6>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="p-sm">
+        <div class="w-100 h-fullpanel">
+          <div id="visualization-canvas">
+          </div>
+        </div>
+      </div>
+    </div>
+  </as-split-area>
+</as-split>

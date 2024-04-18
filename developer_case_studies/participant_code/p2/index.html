@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+
+    <script type="text/javascript" src="/node_modules/provenance-widgets/web-components/index.js"></script>
+
+    <link rel="stylesheet" href="/node_modules/provenance-widgets/web-components/styles.css" />
+  </head>
+  <body>
+    <div id="mainContainer">
+      <div>
+        <h1>How Similar are Pokemon?</h1>
+        <svg width="700" height="600" style="border: 1px solid #777;">
+        </svg>
+      </div>
+      <div id="filters">
+        <h3>Filters</h3>
+        <label for="wp-slider">Filter by HP</label>
+        <label for="wp-range-slider">Filter by Attack</label>
+        <!-- <label for="wp-inputtext">Input Text</label> -->
+        <label for="wp-multiselect">Pokemon Name</label>
+        <label for="wp-dropdown">Generation</label>
+        <label for="wp-checkbox">Primary Type</label>
+        <label for="wp-radiobutton">Secondary Type</label>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

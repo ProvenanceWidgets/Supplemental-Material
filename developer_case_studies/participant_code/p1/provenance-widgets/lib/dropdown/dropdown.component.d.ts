@@ -1,0 +1,63 @@
+import { AfterViewInit, ChangeDetectorRef, ElementRef, EventEmitter, NgZone, Renderer2 } from '@angular/core';
+import { FilterService, PrimeNGConfig } from 'primeng/api';
+import { Dropdown } from 'primeng/dropdown';
+import { ProvenanceWidgetsService, Provenance } from '../provenance-widgets.service';
+import * as i0 from "@angular/core";
+interface DropdownChangeEvent<T> {
+    originalEvent: Event;
+    value: T;
+}
+export declare class DropdownComponent extends Dropdown implements AfterViewInit {
+    private mss;
+    firstChange: boolean;
+    mode: "hybrid" | "time" | "interaction";
+    get selected(): any;
+    set selected(value: any);
+    _selected?: typeof this.options[0];
+    iconSize?: number;
+    visualize: boolean;
+    selectedChange: EventEmitter<any>;
+    pDropdown: Dropdown;
+    interval: number;
+    optionsRecord: Record<string, typeof this.options[0]>;
+    myOverlayOptions: {
+        mode?: import("primeng/api").OverlayModeType;
+        style?: any;
+        styleClass?: string | undefined;
+        contentStyle?: any;
+        contentStyleClass?: string | undefined;
+        target?: any;
+        appendTo: HTMLElement | "body";
+        autoZIndex?: boolean | undefined;
+        baseZIndex?: number | undefined;
+        showTransitionOptions?: string | undefined;
+        hideTransitionOptions?: string | undefined;
+        hideOnEscape: boolean;
+        listener?: ((event: Event, options?: import("primeng/api").OverlayListenerOptions | undefined) => boolean | void) | undefined;
+        responsive?: import("primeng/api").ResponsiveOverlayOptions | undefined;
+        onBeforeShow?: ((event?: import("primeng/api").OverlayOnBeforeShowEvent | undefined) => void) | undefined;
+        onShow?: ((event?: import("primeng/api").OverlayOnShowEvent | undefined) => void) | undefined;
+        onBeforeHide?: ((event?: import("primeng/api").OverlayOnBeforeHideEvent | undefined) => void) | undefined;
+        onHide?: ((event?: import("primeng/api").OverlayOnHideEvent | undefined) => void) | undefined;
+        onAnimationStart?: ((event?: import("@angular/animations").AnimationEvent | undefined) => void) | undefined;
+        onAnimationDone?: ((event?: import("@angular/animations").AnimationEvent | undefined) => void) | undefined;
+    };
+    get provenance(): Provenance | undefined;
+    set provenance(value: Provenance | undefined);
+    _provenance?: Provenance;
+    freeze: boolean;
+    provenanceChange: EventEmitter<Provenance>;
+    constructor(mss: ProvenanceWidgetsService, el: ElementRef<any>, renderer: Renderer2, cd: ChangeDetectorRef, zone: NgZone, filterService: FilterService, config: PrimeNGConfig);
+    ngOnInit(): void;
+    ngAfterViewInit(): void;
+    getProvenance(): ProvenanceWidgetsService;
+    getId(): string;
+    handleClick(btn: HTMLButtonElement): void;
+    handleChange(e: DropdownChangeEvent<typeof this.selected>): void;
+    handleFilter(event: any): void;
+    toggleShow(e: any): void;
+    _visualize(): void;
+    static ɵfac: i0.ɵɵFactoryDeclaration<DropdownComponent, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<DropdownComponent, "provenance-dropdown", never, { "mode": "mode"; "selected": "selected"; "iconSize": "iconSize"; "visualize": "visualize"; "provenance": "provenance"; "freeze": "freeze"; }, { "selectedChange": "selectedChange"; "provenanceChange": "provenanceChange"; }, never, never, false, never>;
+}
+export {};

@@ -1,0 +1,153 @@
+<!-- The Interface -->
+<as-split direction="horizontal" class="h-fullpanel">
+  <as-split-area [size]="100">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 mt-md">
+          <p-card class="w-100">
+            <ng-template pTemplate="title" *ngIf="false">
+              Single Slider
+            </ng-template>
+            <ng-template pTemplate="content">
+              <provenance-slider ngDefaultControl name="name-singleSlider" id="id-singleSlider"
+                [(value)]="widgetModel['singleSlider']['model']['value']"
+                [(provenance)]="widgetModel['singleSlider']['model']['provenance']"
+                (provenanceChange)="widgetUpdated($event, 'singleSlider')"
+                [options]="widgetModel['singleSlider']['config']" [mode]="widgetModel['singleSlider']['mode']['value']"
+                [freeze]="widgetModel['singleSlider']['isFrozen']" />
+            </ng-template>
+          </p-card>
+        </div>
+
+        <div class="col-md-3 mt-md">
+          <p-card class="w-100">
+            <ng-template pTemplate="title" *ngIf="false">
+              Range Slider
+            </ng-template>
+            <ng-template pTemplate="content">
+              <provenance-slider ngDefaultControl name="name-rangeSlider" id="id-rangeSlider"
+                [(value)]="widgetModel['rangeSlider']['model']['value']"
+                [(highValue)]="widgetModel['rangeSlider']['model']['highValue']"
+                [(provenance)]="widgetModel['rangeSlider']['model']['provenance']"
+                (provenanceChange)="widgetUpdated($event, 'rangeSlider')"
+                [options]="widgetModel['rangeSlider']['config']" [mode]="widgetModel['rangeSlider']['mode']['value']"
+                [freeze]="widgetModel['rangeSlider']['isFrozen']" />
+            </ng-template>
+          </p-card>
+        </div>
+
+        <div class="col-md-6"></div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-3 mt-md">
+          <p-card class="w-100">
+            <ng-template pTemplate="title" *ngIf="false">
+              Radiobutton Group
+            </ng-template>
+            <ng-template pTemplate="content">
+              <provenance-radiobutton ngDefaultControl name="name-radioButtonGroup" id="id-radioButtonGroup"
+                [(selected)]="widgetModel['radioButtonGroup']['model']['value']"
+                [(provenance)]="widgetModel['radioButtonGroup']['model']['provenance']"
+                (provenanceChange)="widgetUpdated($event, 'radioButtonGroup')"
+                [data]="widgetModel['radioButtonGroup']['model']['options']"
+                [mode]="widgetModel['radioButtonGroup']['mode']['value']"
+                [freeze]="widgetModel['radioButtonGroup']['isFrozen']" />
+            </ng-template>
+          </p-card>
+        </div>
+
+        <div class="col-md-3 mt-md">
+          <p-card class="w-100">
+            <ng-template pTemplate="title" *ngIf="false">
+              Checkbox Group
+            </ng-template>
+            <ng-template pTemplate="content">
+              <provenance-checkbox ngDefaultControl name="name-checkboxGroup" id="id-checkboxGroup"
+                [(selected)]="widgetModel['checkboxGroup']['model']['value']"
+                [(provenance)]="widgetModel['checkboxGroup']['model']['provenance']"
+                (provenanceChange)="widgetUpdated($event, 'checkboxGroup')"
+                [data]="widgetModel['checkboxGroup']['model']['options']"
+                [mode]="widgetModel['checkboxGroup']['mode']['value']"
+                [freeze]="widgetModel['checkboxGroup']['isFrozen']" />
+            </ng-template>
+          </p-card>
+        </div>
+
+        <div class="col-md-6"></div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-3 mt-md">
+          <p-card class="w-100">
+            <ng-template pTemplate="title" *ngIf="false">
+              Single Select Dropdown
+            </ng-template>
+            <ng-template pTemplate="content">
+              <provenance-dropdown ngDefaultControl name="name-singleSelectDropdown" id="id-singleSelectDropdown"
+                [options]="widgetModel['singleSelectDropdown']['model']['options']" optionLabel="name" dataKey="code"
+                [mode]="widgetModel['singleSelectDropdown']['mode']['value']" placeholder="Select one option"
+                [(selected)]="widgetModel['singleSelectDropdown']['model']['value']" [showClear]="true" [filter]="true"
+                [(provenance)]="widgetModel['singleSelectDropdown']['model']['provenance']"
+                (provenanceChange)="widgetUpdated($event, 'singleSelectDropdown')"
+                [freeze]="widgetModel['singleSelectDropdown']['isFrozen']" />
+            </ng-template>
+          </p-card>
+        </div>
+
+        <div class="col-md-3 mt-md">
+          <p-card class="w-100">
+            <ng-template pTemplate="title" *ngIf="false">
+              Multi Select Dropdown
+            </ng-template>
+            <ng-template pTemplate="content">
+              <provenance-multiselect ngDefaultControl name="name-multiSelectDropdown" id="id-multiSelectDropdown"
+                [options]="widgetModel['multiSelectDropdown']['model']['options']"
+                [(selected)]="widgetModel['multiSelectDropdown']['model']['value']"
+                [(provenance)]="widgetModel['multiSelectDropdown']['model']['provenance']"
+                (provenanceChange)="widgetUpdated($event, 'multiSelectDropdown')" optionLabel="name" dataKey="code"
+                [mode]="widgetModel['multiSelectDropdown']['mode']['value']" placeholder="Select one or more options"
+                [showClear]="true" [filter]="true" [freeze]="widgetModel['multiSelectDropdown']['isFrozen']" />
+            </ng-template>
+          </p-card>
+        </div>
+
+        <div class="col-md-6"></div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-md-3 mt-md">
+          <p-card class="w-100">
+            <ng-template pTemplate="title" *ngIf="false">
+              Input Text
+            </ng-template>
+            <ng-template pTemplate="content">
+              <provenance-inputtext ngDefaultControl name="inputText" id="id-inputText"
+                [(value)]="widgetModel['inputText']['model']['value']"
+                [(provenance)]="widgetModel['inputText']['model']['provenance']"
+                (provenanceChange)="widgetUpdated($event, 'inputText')"
+                [mode]="widgetModel['inputText']['mode']['value']" [freeze]="widgetModel['inputText']['isFrozen']">
+              </provenance-inputtext>
+            </ng-template>
+          </p-card>
+        </div>
+
+        <!-- <div class="col-md-3 mt-md">
+          <p-card class="w-100" #blockedPanel>
+            <ng-template pTemplate="title" *ngIf="false">
+              Numeric Input
+            </ng-template>
+            <ng-template pTemplate="content">
+              <div class="alert alert-info mb-0"><i>Coming soon...</i></div>
+            </ng-template>
+          </p-card>
+        </div> -->
+      </div>
+    </div>
+  </as-split-area>
+</as-split>

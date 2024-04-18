@@ -1,0 +1,33 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "",
+    "data": { "values": []},
+    "layer": [
+        {
+            "mark": {"type": "point", "tooltip": true, "filled": true, "size": 200},
+            "encoding": {
+                "x": {
+                    "field": "Basement Area",
+                    "type": "quantitative",
+                    "axis": {"labelFontSize": 18, "titleFontSize": 20},
+                    "scale": {
+                        "zero": false
+                    }
+                },
+                "y": {
+                    "field": "Lot Area",
+                    "type": "quantitative",
+                    "axis": {"labelFontSize": 18, "titleFontSize": 20},
+                    "scale": {
+                        "zero": false
+                    }
+                },
+                "color": {
+                    "field": "Home Type",
+                    "type": "nominal",
+                    "legend": {"orient": "top", "labelFontSize": 18, "titleFontSize": 20}
+                }
+            }
+        }
+    ]
+}

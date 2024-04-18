@@ -1,0 +1,3 @@
+# Phosphor (Objects)
+
+Phosphor objects employ a phosphor transition as a transition that (1) shows the outcome of the change instantly via an afterglow effect and (2) also explains the change in retrospect using a diagrammatic depiction. For example, manipulating a phosphor slider leaves an afterglow that illustrates how and from where the knob moved. Users who already understand the transition can continue interacting without delay, while those who are inexperienced or may have been distracted can take time to view the effects at their own pace.

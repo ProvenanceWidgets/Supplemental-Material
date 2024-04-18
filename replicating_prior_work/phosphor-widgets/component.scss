@@ -1,0 +1,17 @@
+::ng-deep .p-card{
+    box-shadow: none !important;
+}
+
+::ng-deep .p-card .p-card-body, ::ng-deep .p-card .p-card-content{
+    padding: 0 !important;
+}
+
+::ng-deep rect{
+    stroke-width: 3px !important;
+    padding: 2px !important;
+}
+
+
+::ng-deep .p-multiselect-panel{
+    width: 250px !important;
+}

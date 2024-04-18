@@ -1,0 +1,32 @@
+import { AfterViewInit, ChangeDetectorRef, ElementRef, EventEmitter, OnDestroy, OnInit } from '@angular/core';
+import { Checkbox } from 'primeng/checkbox';
+import { ProvenanceWidgetsService, Provenance } from '../provenance-widgets.service';
+import * as i0 from "@angular/core";
+export declare class CheckboxComponent extends Checkbox implements OnInit, AfterViewInit, OnDestroy {
+    private mss;
+    private el;
+    firstChange: boolean;
+    mode: "hybrid" | "time" | "interaction";
+    data: Record<any, any>[];
+    get selected(): string[] | undefined;
+    set selected(value: string[] | undefined);
+    _selected?: string[];
+    visualize: boolean;
+    freeze: boolean;
+    selectedChange: EventEmitter<string[]>;
+    interval: number;
+    get provenance(): Provenance | undefined;
+    set provenance(value: Provenance | undefined);
+    _provenance?: Provenance;
+    provenanceChange: EventEmitter<Provenance>;
+    constructor(mss: ProvenanceWidgetsService, el: ElementRef, cd: ChangeDetectorRef);
+    ngOnInit(): void;
+    ngAfterViewInit(): void;
+    getId(): string;
+    ngOnDestroy(): void;
+    change(e: string[]): void;
+    _visualize(): void;
+    getProvenance(): ProvenanceWidgetsService;
+    static ɵfac: i0.ɵɵFactoryDeclaration<CheckboxComponent, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<CheckboxComponent, "provenance-checkbox", never, { "mode": "mode"; "data": "data"; "selected": "selected"; "visualize": "visualize"; "freeze": "freeze"; "provenance": "provenance"; }, { "selectedChange": "selectedChange"; "provenanceChange": "provenanceChange"; }, never, never, false, never>;
+}
