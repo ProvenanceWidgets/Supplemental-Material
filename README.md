@@ -1,6 +1,6 @@
 # Supplemental Material
 
-This directory contains supplemental material for the paper "ProvenanceWidgets: A Library of UI Control Elements
+This repository contains supplemental material for the paper "ProvenanceWidgets: A Library of UI Control Elements
 to Track and Dynamically Overlay Analytic Provenance" by Arpit Narechania, Kaustubh Odak, Mennatallah El-Assady, and Alex Endert.
 
 ## Contents
