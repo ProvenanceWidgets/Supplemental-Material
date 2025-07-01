@@ -2,7 +2,7 @@
 
 Hi there, are you a Pokemon fan? If yes, you will absolutely enjoy this! If not, we are hopeful you will at least learn something (and maybe become a fan)!
 
-You will work with a [dataset on 802 Pokemon](./angular_starter_code/src/assets/pokemon.csv) from all Seven Generations of Pokemon. The information contained in this dataset includes Base Stats, Height, Weight, Classification, etc. The information was scraped from http://serebii.net/.
+You will work with a [dataset on 802 Pokemon](./starter_code/angular_starter_code/src/assets/pokemon.csv) from all Seven Generations of Pokemon. The information contained in this dataset includes Base Stats, Height, Weight, Classification, etc. The information was scraped from http://serebii.net/.
 
 ### Data Dictionary
 | Field            | Description                                                                 |
@@ -55,7 +55,7 @@ You will work with a [dataset on 802 Pokemon](./angular_starter_code/src/assets/
 ### Housekeeping
 5. Fork the repository and add us (arpitnarechania and kausko) as collaborators. This will help us assist you with problems/issues that you may encounter.
 6. Keep committing your changes often. We don't want you to lose your progress.
-7. As you are working with the ProvenanceWidgets and this starter-app, please keep noting down any kind of feedback that you feel can help us improve the library. It could be bugs, feature requests, happy moments, enhancements, anything. You can keep noting these inside [FEEDBACK.md](./angular_starter_code/FEEDBACK.md).
+7. As you are working with the ProvenanceWidgets and this starter-app, please keep noting down any kind of feedback that you feel can help us improve the library. It could be bugs, feature requests, happy moments, enhancements, anything. You can keep noting these inside [FEEDBACK.md](./starter_code/angular_starter_code/FEEDBACK.md).
 8. Once you feel that you have accomplished the task, email us, and we will schedule the final 25-minute interview wherein we will go through your developed application and also your feedback.
 
 
